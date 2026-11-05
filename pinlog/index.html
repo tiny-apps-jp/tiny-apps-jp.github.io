@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PinLog サポート / Support</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d1d1f; --sub:#6e6e73; --accent:#7b4fd6; --card:#f5f5f7; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111114; --fg:#f5f5f7; --sub:#a1a1a6; --accent:#a98bf0; --card:#1c1c20; }
+  }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font-family:-apple-system, BlinkMacSystemFont, "Hiragino Sans", "Helvetica Neue", sans-serif;
+         line-height:1.75; }
+  main { max-width:720px; margin:0 auto; padding:32px 16px 64px; }
+  header { display:flex; align-items:center; gap:16px; margin-bottom:8px; }
+  header img { width:72px; height:72px; border-radius:16px; }
+  h1 { font-size:1.6rem; margin:0; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; color:var(--accent); }
+  h3 { font-size:1rem; margin:20px 0 4px; }
+  .sub { color:var(--sub); font-size:.9rem; }
+  .card { background:var(--card); border-radius:14px; padding:16px 20px; margin:16px 0; }
+  hr { border:none; border-top:1px solid var(--card); margin:48px 0; }
+  a { color:var(--accent); }
+  nav a { margin-right:16px; }
+</style>
+</head>
+<body>
+<main>
+  <nav class="sub"><a href="#ja">日本語</a><a href="#en">English</a><a href="privacy.html">プライバシーポリシー / Privacy</a></nav>
+
+  <section id="ja">
+    <header>
+      <img src="icon.png" alt="PinLog">
+      <div>
+        <h1>PinLog</h1>
+        <p class="sub">ボウリングのスコアと残りピンを、なぞって記録</p>
+      </div>
+    </header>
+
+    <div class="card">
+      ご質問・不具合のご報告は、こちらのメールへお気軽にどうぞ。<br>
+      <a href="mailto:k86666387@gmail.com?subject=PinLog">k86666387@gmail.com</a><br>
+      <span class="sub">お使いの iPhone の機種と iOS のバージョンを書いていただけると助かります。</span>
+    </div>
+
+    <h2>よくある質問</h2>
+    <h3>ピンはどうやって入力しますか？</h3>
+    <p>投げたあと、倒したピンをタップするか、指でなぞってください。指を離すと少しあとに自動で記録されます（時間は「設定」で変えられます）。全部倒したときは「ストライク」「スペア」ボタンでも記録できます。</p>
+    <h3>間違えて記録しました</h3>
+    <p>「1投もどす」で直前の1投を取り消せます。終わったゲームも、ふりかえり画面の「入力画面で直す」から修正できます。</p>
+    <h3>機種変更しても記録を残したい</h3>
+    <p>「設定」→「iCloudにバックアップ」をオンにして、アプリを開き直してください。同じ Apple アカウントの iPhone に記録が届きます。「CSV書き出し」でファイルとして保存しておくこともできます。</p>
+    <h3>近くのボウリング場が出てきません</h3>
+    <p>位置情報が「使用中のみ」で許可されているか、iPhone の「設定」→「プライバシーとセキュリティ」→「位置情報サービス」で確認してください。見つからない場合は「手で登録する」から追加できます。</p>
+    <h3>料金はかかりますか？</h3>
+    <p>無料です。広告もありません。</p>
+  </section>
+
+  <hr>
+
+  <section id="en" lang="en">
+    <h1>PinLog Support</h1>
+    <p class="sub">Swipe to log your bowling scores and pin leaves</p>
+
+    <div class="card">
+      For questions or bug reports, please email:<br>
+      <a href="mailto:k86666387@gmail.com?subject=PinLog">k86666387@gmail.com</a><br>
+      <span class="sub">It helps if you include your iPhone model and iOS version.</span>
+    </div>
+
+    <h2>FAQ</h2>
+    <h3>How do I enter pins?</h3>
+    <p>After each throw, tap or swipe across the pins you knocked down. The throw is saved shortly after you lift your finger (you can change the delay in Settings). If all pins fall, you can also use the Strike or Spare button.</p>
+    <h3>I entered something wrong</h3>
+    <p>Tap "Undo last throw" to remove the last throw. For a finished game, open its review and tap "Edit in score entry".</p>
+    <h3>How do I keep my records when I change phones?</h3>
+    <p>Turn on Settings → "Back up to iCloud" and reopen the app. Your records will sync to iPhones signed in with the same Apple Account. You can also save them as files with "CSV Export".</p>
+    <h3>Nearby bowling centers don't show up</h3>
+    <p>Check that location access is set to "While Using the App" in Settings → Privacy &amp; Security → Location Services. If a center isn't found, you can add it with "Add manually".</p>
+    <h3>Is it free?</h3>
+    <p>Yes. PinLog is free and has no ads.</p>
+  </section>
+</main>
+</body>
+</html>
